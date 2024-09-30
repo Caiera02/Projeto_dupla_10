@@ -11,8 +11,9 @@
 <body>
     <header>
         <img src="IMG/fe569a20-3273-4745-ab54-21eb34e5fafb.webp" alt=""
-            style="float: left; width: 70px; border-radius: 50px;">
+            style="float: left; width: 4em; border-radius: 50px; margin-left: 6px;">
         <nav>
+            <!-- <button> <img src="IMG/Boca_aberta.jpg" alt=""> <a href="index.html"> Home </a></button> -->
             <button> <a href="index.html"> Home </a></button>
             <button> <a href="index2.html"> Espécie </a></button>
         </nav>
@@ -21,7 +22,8 @@
     <main>
         <div class="container">
             <h2> Tubarão-De-Pontas-Brancas-De-Recife </h2>
-            <img class="imgleft" src="./IMG/imgtubarão/tubarao_pontas_brancas_de_recife.jpg" alt="Tubarão de pontas brancas de recife">
+            <img class="imgleft" src="./IMG/imgtubarão/tubarao_pontas_brancas_de_recife.jpg"
+                alt="Tubarão de pontas brancas de recife">
             <p>
                 Este tubarão menor e tímido tem uma estrutura longa e fina e um olhar carrancudo e quase
                 rabugento no
@@ -30,8 +32,11 @@
         </div>
 
         <div class="container">
-            <h2> Tubarão Touro </h2>
-            <img class="imgright" img src="./IMG/imgtubarão/tubarão_touro.png" alt="tubarão touro">
+            <h2>Tubarão Touro</h2>
+            <figure>
+                <img class="imgright" img src="./IMG/imgtubarão/tubarão_touro.png" alt="tubarão touro">
+            </figure>
+
             <p>Os tubarões-touro têm a dúbia distinção de ser uma das três principais espécies envolvidas em ataques de
                 tubarão não provocados em humanos. Eles tendem a frequentar águas quentes, rasas e muitas vezes turvas
                 perto da costa.</p>
@@ -66,13 +71,11 @@
                 principalmente nos oceanos perto da Noruega, África do Sul, Nova Zelândia e Chile.</p>
         </div>
 
-        <form action="">
+        <form action="" class="teste">
             <!-- Nome -->
             <label for=""> Nome:</label>
             <input type="text" name="nome" id="nome" required="required" placeholder=" Digite seu nome....">
-            <br>
-            <br>
-
+            
             <!-- Telefon -->
             <label for=""> Telefone</label>
             <input type="tel=" pattern="[0-9]{3}-[0-9]{3}" name="Telefone" id="Telefone" required="required"
@@ -80,31 +83,27 @@
             <!-- e-mail -->
             <label for=""> E-mail</label>
             <input type="text" name="email" id="email" required="required" placeholder=" Digite seu e-mail....">
-            <br>
-            <br>
+            
             <!-- Data de nasc    -->
             <label for=""> Data de nascimento</label>
             <input type="datetime" name="nascimento" id="nascimento" required="required">
-            <br>
-            <br>
+            
             <!-- Data de nasc    -->
             <label for=""> Endereço</label>
             <input type="text" name="endereco" id="endereco" required="required">
-            <br>
-            <br>
+            
             <label for="">Bairro</label>
             <input type="text" name="bairro" id="bairro" required="required">
-            <br><br>
+            
             <label for="">N°</label>
             <input type="number" name="numero" id="numero" required="required">
-            <br><br>
+            
             <label for="">uf</label>
             <input type="text" name="uf" id="uf" required="required">
-            <br><br>
+           
             <label for="">feedback</label>
             <textarea name="feedback" id="feedback" placeholder="Deixe o seu feedback"> </textarea>
-            <br>
-            <br><br><br><br>
+            
     </main>
     <footer>
         <div>
