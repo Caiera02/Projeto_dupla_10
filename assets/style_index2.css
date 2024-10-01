@@ -1,6 +1,7 @@
 * {
   margin: 0;
 }
+
 body {
   background-color: #9dd5fa;
 }
@@ -14,6 +15,7 @@ nav {
   margin-top: 1%;
   margin-left: 45%;
 }
+
 .container {
   padding: 2em;
   margin-bottom: 6%;
@@ -30,6 +32,7 @@ button {
   margin-right: 1%;
   width: 300px;
 }
+
 .imgright {
   float: right;
   margin-right: 1%;
@@ -49,16 +52,39 @@ form {
   display: flex;
   flex-direction: column; /* Coloca os itens em coluna*/
   align-items: center; /* Centraliza os itens do formulário */
-  width: 10%;
-  border: 1px solid black;
-
+  background: #1a5276;
   border-radius: 20px;
+ 
+}
+h2{
+  margin-bottom: 1%;
 }
 
-/* .teste {
-  display: flex;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
-  height: 100vh; /* Altura total da viewport 
-} */
+#h2right1 {
+  margin-left: 86%;
+  margin-bottom: 1%;
+}
 
+#h2right2 {
+  margin-left: 83%;
+  margin-bottom: 1%;
+}
+
+input{
+  background-color: red;
+  width: 20em;
+  padding: 6px;
+}
+
+.right{
+  
+}
+
+
+
+/*
+.teste {
+  display: flex;
+  justify-content: baseline;  /* Centraliza horizontalmente*/
+  /* align-items: last-baseline;   Centraliza verticalmente  */
+  /* height: 100vh;        Altura total da viewport */ 
