@@ -49,14 +49,22 @@ p {
 }
 
 form {
-  display: flex;
-  flex-direction: column; /* Coloca os itens em coluna*/
-  align-items: center; /* Centraliza os itens do formulário */
+  /* centralizar o form na página */
+  width: 800px;
+  margin-left: 20%;
+  margin-right: 0%;
+  margin-top: 4%;
+  margin-bottom: 0;
+  /* Para ver as bordas do formulário */
+  padding: 2em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
   background: #1a5276;
-  border-radius: 20px;
- 
+
+
 }
-h2{
+
+h2 {
   margin-bottom: 1%;
 }
 
@@ -70,14 +78,16 @@ h2{
   margin-bottom: 1%;
 }
 
-input{
-  background-color: red;
-  width: 20em;
+input {
+  border-radius: 5px ;
   padding: 6px;
 }
 
-.right{
-  
+.right {
+  width: 400px;
+  display: grid;
+  gap: 1rem 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 
@@ -86,5 +96,5 @@ input{
 .teste {
   display: flex;
   justify-content: baseline;  /* Centraliza horizontalmente*/
-  /* align-items: last-baseline;   Centraliza verticalmente  */
-  /* height: 100vh;        Altura total da viewport */ 
+/* align-items: last-baseline;   Centraliza verticalmente  */
+/* height: 100vh;        Altura total da viewport */
