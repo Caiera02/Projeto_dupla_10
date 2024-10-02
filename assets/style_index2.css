@@ -48,35 +48,6 @@ p {
   font-size: 30px;
 }
 
-/* form {
-  width: 50%;
-  background-color: #1a5276;
-  border-radius:10px;
-  padding: 2em;
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 22%;
-  color: aliceblue;
-} */
-
-form{
-  margin-top: 10%;
-  margin-bottom: 5%;
-  max-width: 50%;
-  margin-left: 22%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  background-color: #1a5276;
-  border-radius:10px;
-}
-
-.itens, textarea{
-  margin-right: 3%;
-  padding: 1em;
-  color: white;
-  font-weight: 800;
-}
-
 h2 {
   margin-bottom: 1%;
 }
@@ -90,12 +61,40 @@ h2 {
   margin-left: 83%;
   margin-bottom: 1%;
 }
+form{
+  margin-top: 10%;
+  margin-bottom: 5%;
+  margin-left: 22%;
+  max-width: 50%;
+  padding: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #1a5276;
+  border-radius:50px;
+}
+
+.itens, textarea{
+  margin-right: 3%;
+  padding: 1em;
+  color: white;
+  font-weight: 800;
+}
 
 input {
   border-radius: 5px ;
   width: 100%;
   padding: 6px;
+}
+#labelTxt{
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  margin-left: 5%;
+  color: white;
+}
 
+#item-1{
+  padding-left: 60px;
 }
 
 
