@@ -17,40 +17,31 @@ nav {
 }
 
 button {
-  /* background-color: #9dd5fa;
-  width: 10%;
-  height: 50%;
-  font-size: 30px;
-  border-radius: 5px;
-  border: 2px solid black;
-  padding: 10px;
-  margin: 10px;
-  align-items: center; */
   padding: 10px;
   border-radius: 10px;
   font-size: 20px;
 }
 
-/* #logo {
-   width: 12%;
-  height: 10%;
-  display: flex;
-  flex-direction: row;
-  padding: 1%;
-} */
+#logo {
+  float: left; 
+  width: 5em; 
+  border-radius: 50px; 
+  margin-left: 3px;
+}
 /* header */
 
 /* main */
 h1 {
+  margin-top: 10%;
   text-align: center;
 }
-.containerp {
+/* .containerp {
   background-image: url("./IMG/sea.png");
   padding: 20px 30px;
   font-size: 30px;
   color: white;
   align-items: start;
-}
+} */
 .lista {
   height: 30px;
   width: 30px;
