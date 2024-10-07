@@ -80,8 +80,10 @@ form{
 
 textarea{
   margin-right: 3%;
-  padding: 5em;
-  padding-left: 77%;
+  padding: 10%;
+  padding-left: 62%;
+  border-radius: 5px ;
+
 }
 
 input {
