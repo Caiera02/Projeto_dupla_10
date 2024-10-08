@@ -2,6 +2,15 @@
   margin: 0;
 }
 
+@font-face {
+  font-family:'Caio' ;
+  src: url(../assets/fonts/CrimsonText-Regular.ttf);
+}
+@font-face {
+  font-family:'fontBtn' ;
+  src: url(../assets/fonts/JotiOne-Regular.ttf);
+}
+
 body {
   background-color: #9dd5fa;
 }
@@ -20,6 +29,7 @@ button {
   padding: 10px;
   border-radius: 10px;
   font-size: 20px;
+  font-family: 'fontBtn';
 }
 
 #logo {
@@ -85,12 +95,9 @@ h1 {
 }
 
 .containerp {
-  display: flex;
-  /* Configuração do texto*/
-  justify-content: center;
-  /* Alinhamento do texto*/
-  align-items: center;
-  /* Alinhamento do texto*/
+  display: flex; /* Configuração do texto*/
+  justify-content: center;/* Alinhamento do texto*/
+  align-items: center; /* Alinhamento do texto*/
   background-image: url(../IMG/fundo.png);
   font-size: 30px;
   color: white;
