@@ -1,5 +1,5 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
 }
 
 body {
@@ -23,9 +23,9 @@ button {
 }
 
 #logo {
-  float: left; 
-  width: 5em; 
-  border-radius: 50px; 
+  float: left;
+  width: 5em;
+  border-radius: 50px;
   margin-left: 3px;
 }
 
@@ -36,43 +36,108 @@ h1 {
   text-align: center;
 }
 
-#p1{
+#p1 {
   display: flex;
   justify-content: center;
 }
 
-#divTuba{
+#divTuba {
+  border: 2px solid #9dd5fa;
   height: 22em;
 }
 
-#p2{
+#p2 {
+  border: 2px solid #9dd5fa;
   text-align: center;
   font-size: 20px;
+  width: 60%;
+  margin-left: 15%;
+  margin-top: 5%;
 }
-/* PArei aqui nessa parada */
+
+#img1 {
+  float: left;
+  margin-left: 10%;
+  width: 200px;
+  border-radius: 10%;
+
+}
+
+#img2 {
+  float: right;
+  margin-top: 2%;
+  margin-right: 10%;
+  width: 200px;
+  border-radius: 30%;
+}
+
+#img3 {
+  float: right;
+  margin-left: 35%;
+  margin-right: 5%;
+  width: 150px;
+  height: 150px;
+  border-radius: 35%;
+}
+
+.fundo {
+  display: flex;
+  justify-items: center;
+}
+
 .containerp {
-  background-image: url("./IMG/fundo.png");
-  padding: 20px 30px;
+  display: flex;
+  /* Configuração do texto*/
+  justify-content: center;
+  /* Alinhamento do texto*/
+  align-items: center;
+  /* Alinhamento do texto*/
+  background-image: url(../IMG/fundo.png);
   font-size: 30px;
   color: white;
-  align-items: start;
+  height: 200px;
 }
+
+#divCuidado {
+  margin-top: 5%;
+  border: 2px solid black;
+}
+
+/* Carousel */
+
+.merda{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.imgCar{
+  width: 20%;
+  border-radius: 10px;
+}
+/* Parei aqui nessa parada */
+
 .lista {
   height: 30px;
   width: 30px;
 }
+
 ul {
   font-size: 30px;
 }
+
 p {
   text-align: center;
   font-size: 30px;
 }
-/* main */
 
 /* footer */
 footer {
   background-color: #1a5276;
   text-align: center;
 }
+
 /* footer */
