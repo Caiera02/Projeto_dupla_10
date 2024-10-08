@@ -32,11 +32,26 @@ button {
 /* main */
 h1 {
   margin-top: 2%;
+  margin-bottom: 5%;
   text-align: center;
+}
+
+#p1{
+  display: flex;
+  justify-content: center;
+}
+
+#divTuba{
+  height: 22em;
+}
+
+#p2{
+  text-align: center;
+  font-size: 20px;
 }
 /* PArei aqui nessa parada */
 .containerp {
-  background-image: url("./IMG/sea.png");
+  background-image: url("./IMG/fundo.png");
   padding: 20px 30px;
   font-size: 30px;
   color: white;
