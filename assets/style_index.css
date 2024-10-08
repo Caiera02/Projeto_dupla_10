@@ -28,20 +28,20 @@ button {
   border-radius: 50px; 
   margin-left: 3px;
 }
-/* header */
 
 /* main */
 h1 {
-  margin-top: 10%;
+  margin-top: 2%;
   text-align: center;
 }
-/* .containerp {
+/* PArei aqui nessa parada */
+.containerp {
   background-image: url("./IMG/sea.png");
   padding: 20px 30px;
   font-size: 30px;
   color: white;
   align-items: start;
-} */
+}
 .lista {
   height: 30px;
   width: 30px;
