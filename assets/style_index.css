@@ -63,7 +63,7 @@ h1 {
 #p2 {
   border: 2px solid #9dd5fa;
   text-align: center;
-  font-size: 20px;
+  font-size: 30px;
   width: 60%;
   margin-left: 15%;
   margin-top: 5%;
@@ -106,6 +106,7 @@ h1 {
   font-size: 30px;
   color: white;
   height: 200px;
+  margin-top: 2%;
 }
 
 #divCuidado {
