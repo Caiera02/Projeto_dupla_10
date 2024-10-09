@@ -4,105 +4,133 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style_index2.css">
     <title>Tubarro Explorer</title>
 </head>
 
 <body>
-
     <header>
-        <img src="IMG/fe569a20-3273-4745-ab54-21eb34e5fafb.webp" alt="">
+
+        <img src="assets/IMG/fe569a20-3273-4745-ab54-21eb34e5fafb.webp" alt=""
+            style="float: left; width: 5em; border-radius: 50px; margin-left: 3px;">
         <nav>
-            <button> <a href="index.html"> Home </a></button>
-            <button> <a href="index2.html"> Espécie </a></button>
+            <button> <img src="./assets/IMG/imgtubarão/LOGO_BOTÕES.png" alt="" style="width: 20px;"> <a
+                    href="index.html"> Home </a></button>
+
+            <button> <img src="./assets/IMG/imgtubarão/LOGO_BOTÕES.png" alt="" style="width: 2em;"> <a
+                    href="index2.html"> Espécie </a></button>
         </nav>
+        
     </header>
 
-
     <main>
-        <div>
+        <div class="container">
             <h2> Tubarão-De-Pontas-Brancas-De-Recife </h2>
-                    <img src="./IMG/imgtubarão/tubarao_pontas_brancas_de_recife.jpg" alt="Tubarão de pontas brancas de recife">
-                    <p>Este tubarão menor e tímido tem uma estrutura longa e fina e um olhar carrancudo e quase
-                        rabugento no
-                        rosto. Este é um dos poucos tubarões de requiem que não precisa continuar nadando para respirar.
-                    </p>
-
+            <img class="imgleft" src="./assets/IMG/imgtubarão/tubarao_pontas_brancas_de_recife.jpg"
+                alt="Tubarão de pontas brancas de recife">
+            <p>
+                Este tubarão menor e tímido tem uma estrutura longa e fina e um olhar carrancudo e quase
+                rabugento no
+                rosto. Este é um dos poucos tubarões de requiem que não precisa continuar nadando para respirar.
+            </p>
         </div>
 
-        <div>
-            <h2> Tubarão Touro </h2>
-            <img src="./IMG/imgtubarão/tubarão_touro.png" alt="tubarão touro">
-            <p>Os tubarões-touro têm a dúbia distinção de ser uma das três principais espécies envolvidas em ataques de tubarão não provocados em humanos. Eles tendem a frequentar águas quentes, rasas e muitas vezes turvas perto da costa.</p>
+        <div class="container">
+            <h2 id="h2right1">Tubarão Touro</h2>
+            <figure>
+                <img class="imgright" img src="./assets/IMG/imgtubarão/tubarão_touro.png" alt="tubarão touro">
+            </figure>
+
+            <p>
+                Os tubarões-touro têm a dúbia distinção de ser uma das três principais espécies envolvidas em ataques de
+                tubarão não provocados em humanos. Eles tendem a frequentar águas quentes, rasas e muitas vezes turvas
+                perto da costa.
+            </p>
         </div>
 
-        <div>
+        <div class="container">
             <h2>Tubarão Branco</h2>
-            <img src="./IMG/imgtubarão/branco.png" alt="tubarão branco">
+            <img class="imgleft" src="./assets/IMG/imgtubarão/branco.png" alt="tubarão branco">
             <p>O tubarão branco (ou grande branco) é um dos tubarões mais conhecidos. É uma das maiores espécies de
                 tubarões, com um tamanho máximo estimado de cerca de 6 mts., embora existam relatos não confirmados
-                de
-                tubarões brancos crescendo a 7 mts.</p>
+                de tubarões brancos crescendo a 7 mts.</p>
         </div>
 
-        <div>
-            <h2> Tubarão-Martelo-
-                Recortado</h2>
-            <img src="./IMG/imgtubarão/Tubarão-Martelo-Recortado.jpg" alt="tubarão martelo recortado">
+        <div class="container">
+            <h2 id="h2right2"> Tubarão-Martelo-Recortado</h2>
+            <img class="imgright" src="./assets/IMG/imgtubarão/Tubarão-Martelo-Recortado.jpg" alt="tubarão martelo recortado">
+
             <p>Esses tubarões-martelo são únicos por causa da forma recortada da borda frontal de  sua “cabeça de
                 martelo”. Estes tubarões de águas abertas têm sido observados em muitas partes do mundo e em muitos
-                habitats
-                à
-                procura de comida, geralmente peixes, invertebrados e tubarões e raias menores.</p>
+                habitats à procura de comida, geralmente peixes, invertebrados e tubarões e raias menores.</p>
         </div>
 
-        <div>
+        <div class="container">
             <h2> Tubarão Cobra </h2>
-            <img src="./IMG/imgtubarão/cobra.png" alt="tubarão cobra">
-            <p>O tubarão cobra é um tubarão primitivo que se parece com uma enguia marrom escura ou cinza. Eles são
+            <img class="imgleft" src="./assets/IMG/imgtubarão/cobra.png" alt="tubarão cobra">
+            <p>
+                O tubarão cobra é um tubarão primitivo que se parece com uma enguia marrom escura ou cinza. Eles são
                 encontrados
-                principalmente nos oceanos perto da Noruega, África do Sul, Nova Zelândia e Chile.</p>
+                principalmente nos oceanos perto da Noruega, África do Sul, Nova Zelândia e Chile.
+            </p>
         </div>
-    
-    <form action="">
-        <!-- Nome -->
-        <label for=""> Nome:</label>
-        <input type="text" name="nome" id="nome" required="required" placeholder=" Digite seu nome....">
-        <br>
-        <br>
-        
-        <!-- Telefon -->
-        <label for=""> Telefone</label>
-        <input type="tel=" pattern="[0-9]{3}-[0-9]{3}" name="Telefone" id="Telefone" required="required"
-            placeholder=" Digite seu Telefone....">
-            <!-- e-mail -->
-        <label for=""> E-mail</label>
-        <input type="text" name="email" id="email" required="required" placeholder=" Digite seu e-mail....">
-        <br>
-        <br>
-        <!-- Data de nasc    -->
-        <label for=""> Data de nascimento</label>
-        <input type="datetime" name="nascimento" id="nascimento" required="required">
-        <br>
-        <br>
-        <!-- Data de nasc    -->
-        <label for=""> Endereço</label>
-        <input type="text" name="endereco" id="endereco" required="required">
-        <br>
-        <br>
-        <label for="">Bairro</label>
-        <input type="text" name="bairro" id="bairro" required="required">
-        <br><br>
-        <label for="">N°</label>
-        <input type="number" name="numero" id="numero" required="required">
-        <br><br>
-        <label for="">uf</label>
-        <input type="text" name="uf" id="uf" required="required">
-        <br><br>
-        <label for="">feedback</label>
-        <textarea name="feedback" id="feedback" placeholder="Deixe o seu feedback"> </textarea>
-        <br>
-        <br><br><br><br>
-    </main>   
+
+        <form>
+            <div id="container1">
+                
+                <div class="itens">
+                    <label for=""> Nome:</label>
+                    <input type="text" name="nome" id="nome" required="required" placeholder=" Digite seu nome....">
+                </div>
+                
+                <div class="itens">
+                    <label for=""> Telefone:</label>
+                    <input type="tel=" name="Telefone" id="Telefone" required="required"
+                        placeholder=" Digite seu Telefone....">
+                </div>
+                
+                <div class="itens">
+                    <label for=""> E-mail:</label>
+                    <input type="text" name="email" id="email" required="required" placeholder=" Digite seu e-mail....">
+                </div>
+                
+                <div class="itens">
+                    <label for=""> Data de nascimento:</label>
+                    <input type="datetime" name="nascimento" id="nascimento" required="required">
+                </div>
+
+                <div class="itens">
+                    <label for=""> Endereço:</label>
+                    <input type="text" name="endereco" id="endereco" required="required">
+                </div>
+
+                <div class="itens">
+                    <label for="">Bairro:</label>
+                    <input type="text" name="bairro" id="bairro" required="required">
+                </div>
+
+                <div class="itens">
+                    <label for="">N°:</label>
+                    <input type="number" name="numero" id="numero" required="required">
+                </div>
+
+                <div class="itens">
+                    <label for="">UF:</label>
+                    <input type="text" name="UF" id="uf" required="required">
+                </div>
+            </div>
+
+            <div class="itens">
+                <label for="">Feedback:</label>
+                <textarea name="feedback" id="feedback" placeholder="Deixe o seu feedback"> </textarea>
+            </div>
+
+            <div style="display: flex; justify-content: center; margin-bottom: 1%;">
+                <button type="button"> Enviar</button>
+            </div>
+
+        </form>
+    </main>
     <footer>
         <div>
             &copy;2021-2024 Tuibarro.com

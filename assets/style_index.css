@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family:'Caio' ;
+  src: url(../assets/fonts/CrimsonText-Regular.ttf);
+}
+@font-face {
+  font-family:'fontBtn' ;
+  src: url(../assets/fonts/JotiOne-Regular.ttf);
+}
+@font-face {
+  font-family:'titleP' ;
+  src: url(../assets/fonts/JollyLodger-Regular.ttf);
+}
+
+body {
+  background-color: #9dd5fa;
+}
+
+header {
+  background-color: #1a5276;
+  padding: 2em;
+}
+
+nav {
+  margin-top: 1%;
+  margin-left: 45%;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'fontBtn';
+}
+
+#logo {
+  float: left;
+  width: 5em;
+  border-radius: 50px;
+  margin-left: 3px;
+}
+
+/* main */
+h1 {
+  margin-top: 2%;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+#p1 {
+  display: flex;
+  justify-content: center;
+}
+
+#divTuba {
+  border: 2px solid #9dd5fa;
+  height: 22em;
+}
+
+#p2 {
+  border: 2px solid #9dd5fa;
+  text-align: center;
+  font-size: 30px;
+  width: 60%;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+#img1 {
+  float: left;
+  margin-left: 10%;
+  width: 200px;
+  border-radius: 10%;
+}
+
+#img2 {
+  float: right;
+  margin-top: 2%;
+  margin-right: 10%;
+  width: 200px;
+  border-radius: 30%;
+}
+
+#img3 {
+  float: right;
+  margin-left: 35%;
+  margin-right: 5%;
+  width: 150px;
+  height: 150px;
+  border-radius: 35%;
+}
+
+.fundo {
+  display: flex;
+  justify-items: center;
+}
+
+.containerp {
+  display: flex; /* Configuração do texto*/
+  justify-content: center;/* Alinhamento do texto*/
+  align-items: center; /* Alinhamento do texto*/
+  background-image: url(../assets/IMG/fundo.png);
+  font-size: 30px;
+  color: white;
+  height: 200px;
+  margin-top: 2%;
+}
+
+#divCuidado {
+  margin-top: 5%;
+}
+
+/* Carousel */
+
+.carousel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.imgCar{
+  width: 20%;
+  border-radius: 10px;
+}
+
+.title{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 4%;
+}
+
+.lista {
+  height: 30px;
+  width: 30px;
+}
+
+ul {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-size: 30px;
+}
+
+p {
+  text-align: center;
+  font-size: 30px;
+}
+
+/* footer */
+footer {
+  padding: 2em;
+  color: white;
+  background-color: #1a5276;
+  text-align: center;
+  font-size:20px;
+}
+
+/* footer */

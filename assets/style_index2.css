@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+}
+
+@font-face {
+  font-family:'Caio' ;
+  src: url(../assets/fonts/CrimsonText-Regular.ttf);
+}
+@font-face {
+  font-family:'fontBtn' ;
+  src: url(../assets/fonts/JotiOne-Regular.ttf);
+}
+
+body {
+  background-color: #9dd5fa;
+}
+
+header {
+  background-color: #1a5276;
+  padding: 2em;
+}
+
+nav {
+  margin-top: 1%;
+  margin-left: 45%;
+}
+
+.container {
+  padding: 2em;
+  margin-bottom: 6%;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: 'fontBtn';
+}
+
+.imgleft {
+  float: left;
+  margin-right: 1%;
+  width: 300px;
+}
+
+.imgright {
+  float: right;
+  margin-right: 1%;
+  width: 300px;
+}
+
+p {
+  margin-top: 1%;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  margin-bottom: 1%;
+  font-family: 'Caio',sans-serif;
+}
+
+#h2right1 {
+  margin-left: 86%;
+  margin-bottom: 1%;
+}
+
+#h2right2 {
+  margin-left: 83%;
+  margin-bottom: 1%;
+}
+
+form{
+  margin-top: 10%;
+  margin-bottom: 5%;
+  max-width: 50%;
+  margin-left: 22%;
+  background-color: #1a5276;
+  border-radius:10px;
+  color: white;
+  font-weight: 800;
+  font-size: 22px;
+}
+
+#container1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.itens{
+  margin-right: 3%;
+  padding: 1em;
+}
+
+textarea{
+  margin-right: 2%;
+  padding: 10%;
+  padding-left: 66%;
+  border-radius: 5px ;
+
+}
+
+input {
+  border-radius: 5px ;
+  width: 100%;
+  padding: 6px;
+}
+
+footer {
+  padding: 2em;
+  color: white;
+  background-color: #1a5276;
+  text-align: center;
+  font-size: 20px;
+}
