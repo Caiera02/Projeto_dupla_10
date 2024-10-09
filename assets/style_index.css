@@ -102,7 +102,7 @@ h1 {
   display: flex; /* Configuração do texto*/
   justify-content: center;/* Alinhamento do texto*/
   align-items: center; /* Alinhamento do texto*/
-  background-image: url(../IMG/fundo.png);
+  background-image: url(../assets/IMG/fundo.png);
   font-size: 30px;
   color: white;
   height: 200px;
