@@ -30,7 +30,7 @@
             </p>
             <br>
 
-            <p class="containerp">Os tubarões são predadores marinhos que habitam os oceanos há mais de 400 milhões de
+            <p class="containerp font">Os tubarões são predadores marinhos que habitam os oceanos há mais de 400 milhões de
                 anos, sendo mais
                 antigos que os dinossauros. Com mais de 500 espécies conhecidas, eles variam desde o pequeno
                 tubarão-lanterna, de apenas 20 cm, até o gigantesco tubarão-baleia, que pode alcançar 12 metros.
@@ -47,9 +47,9 @@
 
             <img id="img2" src="./IMG/imgtubarão/mordida.png" alt="iamgem de uma mordida de tubarão leve no braço">
 
-            <p id="p2">
+            <p id="p2" class="font">
                 <img style="margin-left: 1%; float: left; width: 40px; height: 40px;" src="IMG/imgtubarão/icone.png"
-                    alt="">A mordida de um tubarão pode causar ferimentos graves e, em alguns casos, ser fatal. A força
+                    alt="" >A mordida de um tubarão pode causar ferimentos graves e, em alguns casos, ser fatal. A força
                 da mordida
                 depende do tamanho do tubarão, mas pode ser muito intensa.
             </p>
@@ -59,7 +59,7 @@
 
         </div>
 
-        <div class="containerp">
+        <div class="containerp font">
 
             <p id="texto01">Os motivos para ataques são variados: desequilíbrio ambiental, defesa do território ou
                 confusão (Sim, os
@@ -70,18 +70,18 @@
         </div>
         <div id="divCuidado">
             <ul>
-                <li>
+                <li class="font">
                     <img src="./IMG/imgtubarão/icone.png"
                         alt="icone de uma barbatana preta de tubarão pra fora de uma onda" class="lista">Evitar banho
                     com água turva;
                 </li>
-                <li>
+                <li class="font">
                     <img src="./IMG/imgtubarão/icone.png"
                         alt="icone de uma barbatana preta de tubarão pra fora de uma onda" class="lista">Agua acima da
                     altura da
                     cintura, em períodos chuvosos e com maré alta;
                 </li>
-                <li>
+                <li class="font">
                     <img src="./IMG/imgtubarão/icone.png"
                         alt="icone de uma barbatana preta de tubarão pra fora de uma onda" class="lista">Não entrar
                     bebado
@@ -106,8 +106,8 @@
         <!-- curiosidades -->
         <div>
             <h2>Curiosidades</h2>
-            <ul>
-                <li> <img src="./IMG/imgtubarão/shark (1).png"
+            <ul class="font">
+                <li > <img src="./IMG/imgtubarão/shark (1).png"
                         alt=" icone de uma barbatana preta de tubarão pra fora de uma onda" class="lista">Os
                     tubarões possuem narinas,
                     entretanto, não são utilizadas na respiração. Essas estruturas estão
@@ -138,20 +138,6 @@
         &copy;2021-2024 Tuibarro.com
     </footer>
 
-    <script>
-        let currentIndex = 0;
-
-        function moveCarousel(direction) {
-            const images = document.getElementById('carousel-images');
-            const totalImages = images.children.length;
-
-            // Atualiza o índice
-            currentIndex = (currentIndex + direction + totalImages) % totalImages;
-
-            // Move o carrossel
-            images.style.transform = `translateX(-${currentIndex * 100}%)`;
-        }
-    </script>
 
 </body>
 
