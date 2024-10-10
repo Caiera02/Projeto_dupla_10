@@ -3,11 +3,11 @@
 }
 
 @font-face {
-  font-family:'Caio' ;
+  font-family: "Caio";
   src: url(../assets/fonts/CrimsonText-Regular.ttf);
 }
 @font-face {
-  font-family:'fontBtn' ;
+  font-family: "fontBtn";
   src: url(../assets/fonts/JotiOne-Regular.ttf);
 }
 
@@ -34,7 +34,15 @@ button {
   padding: 10px;
   border-radius: 10px;
   font-size: 20px;
-  font-family: 'fontBtn';
+  font-family: "fontBtn";
+  background-color: #9dd5fa;
+  /* transition: background-color 0.5s ease, transform 0.5s ease; */
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+
+button:hover{
+  background-color: #9dd5fa;
+  transform: scale(1.2000);
 }
 
 .imgleft {
@@ -52,12 +60,12 @@ button {
 p {
   margin-top: 1%;
   font-size: 30px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h2 {
   margin-bottom: 1%;
-  font-family: 'Caio',sans-serif;
+  font-family: "Caio", sans-serif;
 }
 
 #h2right1 {
@@ -70,38 +78,37 @@ h2 {
   margin-bottom: 1%;
 }
 
-form{
+form {
   margin-top: 10%;
   margin-bottom: 5%;
   max-width: 50%;
   margin-left: 22%;
   background-color: #1a5276;
-  border-radius:10px;
+  border-radius: 10px;
   color: white;
   font-weight: 800;
   font-size: 22px;
 }
 
-#container1{
+#container1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.itens{
+.itens {
   margin-right: 3%;
   padding: 1em;
 }
 
-textarea{
+textarea {
   margin-right: 2%;
   padding: 10%;
   padding-left: 66%;
-  border-radius: 5px ;
-
+  border-radius: 5px;
 }
 
 input {
-  border-radius: 5px ;
+  border-radius: 5px;
   width: 100%;
   padding: 6px;
 }
